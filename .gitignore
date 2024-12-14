@@ -1,0 +1,12 @@
+
+*.pak
+*.rc
+/maps/test_*
+ad_*
+autosave/*
+*.cfg
+*.lit
+*.pts
+*.bsp
+/maps/autosave/*
+maps/terr_xmjr_milestone.map
