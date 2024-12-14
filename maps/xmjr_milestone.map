@@ -11237,7 +11237,6 @@
 "targetname" "on_enter_room"
 "target" "room_telesetup"
 "target2" "room_entitysetup"
-"message" "Enter room"
 }
 // entity 952
 {
@@ -11654,7 +11653,7 @@
 // entity 980
 {
 "classname" "trigger_entitystate_on"
-"origin" "1232 4792 8"
+"origin" "1240 4752 8"
 "targetname" "start"
 "target" "w1_exec"
 }
@@ -11664,7 +11663,6 @@
 "origin" "1296 4792 8"
 "targetname" "spawn_next_wave"
 "target" "wave"
-"message" "Spawning in wave..."
 }
 // entity 982
 {
