@@ -1,8 +1,8 @@
 import sys
-val = sys.argv[1]
-dbg = True
-waves = 25
-if val == "w":
+val = sys.argv[1] if len(sys.argv) > 1 else ""
+dbg = False
+waves = 50
+if val == "":
 	for i in range(1, waves):
 		print('\
 		{{"classname" "trigger_relay" "targetname" "wave" "target" "w{0}_exec" "message" "{3}" }}\n\
@@ -14,4 +14,5 @@ if val == "w":
 		print("\n")
 else:
 	for i in range(1, waves):
-		print ('{{"classname" "monster_{1}" "targetname" "w{0}_setup" "spawnflags" "112" "nomonstercount" "1" }}'.format(i, val))
+		print ('{{"classname" "monster_{1}" "targetname" "w{0}_setup" "spawnflags" "96" "bodyfadeaway" "1" "nomonstercount" "1" }}'.format(i, val))
+
